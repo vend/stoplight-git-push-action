@@ -11,7 +11,7 @@ echo "-- File system --------------------------------------------------------"
 tree
 echo "-----------------------------------------------------------------------"
 
-cp /$STOPLIGHT_PROJECT/$HUB_FILEPATH.yml /workspace/$HUB_FILEPATH
+cp  /workspace/$HUB_FILEPATH /$STOPLIGHT_PROJECT/$HUB_FILEPATH
 
 cd workspace
 
