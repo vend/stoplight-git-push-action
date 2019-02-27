@@ -19,7 +19,6 @@ git checkout version/1.0
 # copy the hub file from workspace to the Stoplight repo
 cp  ../workspace/$HUB_FILEPATH $HUB_FILEPATH
 
-
 echo "-- Git diff --"
 echo git diff --name-only main.hub.yml
 echo "--------------"
