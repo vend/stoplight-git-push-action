@@ -11,6 +11,9 @@ echo "-- Environment --------------------------------------------------------"
 env
 echo "-----------------------------------------------------------------------"
 
+# git config --global user.email "Your@email.com"
+# git config --global user.name "Your Name"
+
 echo
 echo "-- File system --------------------------------------------------------"
 tree
