@@ -11,9 +11,15 @@ echo "-- Environment variables ----------------------------------------------"
 env
 echo "-----------------------------------------------------------------------"
 
-cd $STOPLIGHT_PROJECT
-
 echo
 echo "-- File system --------------------------------------------------------"
 tree
 echo "-----------------------------------------------------------------------"
+
+cp ../$STOPLIGHT_PROJECT/$HUB_FILEPATH /workspace/$HUB_FILEPATH
+
+cd workspace
+
+git add .A
+git commit -m "hub file update from GitHub"
+git push
