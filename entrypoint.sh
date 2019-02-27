@@ -7,6 +7,11 @@ cd ..
 git clone https://$STOPLIGHT_USERNAME:$STOPLIGHT_GIT_TOKEN@git.stoplight.io/$STOPLIGHT_ORG/$STOPLIGHT_PROJECT.git
 
 echo
+echo "-- Environment --------------------------------------------------------"
+env
+echo "-----------------------------------------------------------------------"
+
+echo
 echo "-- File system --------------------------------------------------------"
 tree
 echo "-----------------------------------------------------------------------"
