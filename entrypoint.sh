@@ -15,6 +15,6 @@ cp  ./workspace/$HUB_FILEPATH ./$STOPLIGHT_PROJECT/$HUB_FILEPATH
 
 cd workspace
 
-git add .A
+git add -A
 git commit -m "hub file update from GitHub"
 git push
