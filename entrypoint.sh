@@ -20,7 +20,7 @@ git checkout version/1.0
 cp  ../workspace/$HUB_FILEPATH $HUB_FILEPATH
 
 # add, commit and push the Stoplight repo
-if -n git diff --name-only main.hub.yml; then
+if [ -n git diff --name-only main.hub.yml ]; then
   git add -A
   git commit -m "hub file update from GitHub"
   git push
