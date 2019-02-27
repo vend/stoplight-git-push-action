@@ -24,7 +24,7 @@ echo git diff --name-only main.hub.yml
 echo "--------------"
 
 # add, commit and push the Stoplight repo
-if [ -n git diff --name-only main.hub.yml ]; then
+if [ -n $(git diff main.hub.yml) ]; then
   git add -A
   git commit -m "hub file update from GitHub"
   git push
