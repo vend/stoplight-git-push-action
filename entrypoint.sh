@@ -1,5 +1,4 @@
 #!/bin/sh
-
 set -e
 
 # go level up from the workspace
@@ -22,6 +21,7 @@ cp  ../workspace/$HUB_FILEPATH $HUB_FILEPATH
 # add, commit and push the Stoplight repo
 echo "checking for changes to the hub file"
 if [ -n "$(git diff main.hub.yml)" ]; then
+  echo "hub file changed, pushing to Stoplight"
   git add -A
   git commit -m "hub file update from GitHub"
   git push
